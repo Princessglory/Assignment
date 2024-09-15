@@ -1,0 +1,47 @@
+var button = document.querySelector('.hero-content__order-button');
+button.addEventListener('click',function() { 
+    var buttonName = prompt ('Place your order here!');
+    console.log(buttonName);
+    
+});
+
+var button = document.querySelector('.hero-content__play-button');
+button.addEventListener('click',function() { 
+alert('Play video');
+    
+});
+var button = document.querySelector('.about-us__button');
+button.addEventListener('click',function() {
+  alert("About Us!");
+});
+var button = document.querySelector('.popular-foods__filter-btn');
+button.addEventListener('click',function() {
+  alert('All Popular Food');
+});
+
+var button = document.querySelector('.popular-foods__button');
+button.addEventListener('click',function() { 
+    var buttonName = prompt ('Press ok to Explore Food');
+    console.log(buttonName);
+    
+});
+var button = document.querySelector('.subscription__form button');
+button.addEventListener('click',function() {
+  alert('Get Started!');
+});
+var button = document.querySelector('.footer__nav-li1');
+button.addEventListener('click',function() {
+  alert('Menu');
+});
+var button = document.querySelector('.footer__nav-li2');
+button.addEventListener('click',function() {
+  alert('Food');
+});
+var button = document.querySelector('.footer__nav-li3');
+button.addEventListener('click',function() {
+  alert('Our Services');
+});
+var button = document.querySelector('.footer__nav-li4');
+button.addEventListener('click',function() {
+  alert('About Us');
+});
